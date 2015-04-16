@@ -1864,32 +1864,159 @@
         select_preferredBA = $select_preferredBA[0].selectize;
         select_preferred = $select_preferred[0].selectize;
 
+        // Set values for comboboxes
+        select_organization.addOption({
+                text:'#employer#',
+                value: '#employer#'
+            });
+        select_organization.createItem("#employer#")
         select_organization.setValue("#employer#");
 
-        // Set selected values for comboboxes
+        select_offer1employer.addOption({
+                text:'#employername#',
+                value: '#employername#'
+            });
+        select_offer1employer.createItem("#employername#")
         select_offer1employer.setValue("#employername#");
+
+        select_offer2employer.addOption({
+                text:'#offer2employer#',
+                value: '#offer2employer#'
+            });
+        select_offer2employer.createItem("#offer2employer#")
         select_offer2employer.setValue("#offer2employer#");
+
+        select_offer3employer.addOption({
+                text:'#offer3employer#',
+                value: '#offer3employer#'
+            });
+        select_offer3employer.createItem("#offer3employer#")
         select_offer3employer.setValue("#offer3employer#");
+
+        select_offer4employer.addOption({
+                text:'#offer4employer#',
+                value: '#offer4employer#'
+            });
+        select_offer4employer.createItem("#offer4employer#")
         select_offer4employer.setValue("#offer4employer#");
+
+        select_offer5employer.addOption({
+                text:'#offer5employer#',
+                value: '#offer5employer#'
+            });
+        select_offer5employer.createItem("#offer5employer#")
         select_offer5employer.setValue("#offer5employer#");
 
+        select_school1name.addOption({
+                text:'#SCHNAME1#',
+                value: '#SCHNAME1#'
+            });
+        select_school1name.createItem("#SCHNAME1#")
         select_school1name.setValue("#SCHNAME1#");
+
+        select_school2name.addOption({
+                text:'#SCHNAME2#',
+                value: '#SCHNAME2#'
+            });
+        select_school2name.createItem("#SCHNAME2#")
         select_school2name.setValue("#SCHNAME2#");
+
+        select_school3name.addOption({
+                text:'#SCHNAME3#',
+                value: '#SCHNAME3#'
+            });
+        select_school3name.createItem("#SCHNAME3#")
         select_school3name.setValue("#SCHNAME3#");
+
+        select_school4name.addOption({
+                text:'#SCHNAME4#',
+                value: '#SCHNAME4#'
+            });
+        select_school4name.createItem("#SCHNAME4#")
         select_school4name.setValue("#SCHNAME4#");
 
+        select_school1degree.addOption({
+                text:'#DEGREE1#',
+                value: '#DEGREE1#'
+            });
+        select_school1degree.createItem("#DEGREE1#")
         select_school1degree.setValue("#DEGREE1#");
+
+        select_school2degree.addOption({
+                text:'#DEGREE2#',
+                value: '#DEGREE2#'
+            });
+        select_school2degree.createItem("#DEGREE2#")
         select_school2degree.setValue("#DEGREE2#");
+
+        select_school3degree.addOption({
+                text:'#DEGREE3#',
+                value: '#DEGREE3#'
+            });
+        select_school3degree.createItem("#DEGREE3#")
         select_school3degree.setValue("#DEGREE3#");
+
+        select_school4degree.addOption({
+                text:'#DEGREE4#',
+                value: '#DEGREE4#'
+            });
+        select_school4degree.createItem("#DEGREE4#")
         select_school4degree.setValue("#DEGREE4#");
 
+        select_industry.addOption({
+                text:'#industry#',
+                value: '#industry#'
+            });
+        select_industry.createItem("#industry#")
         select_industry.setValue("#industry#");
+
+        select_functional.addOption({
+                text:'#functional#',
+                value: '#functional#'
+            });
+        select_functional.createItem("#functional#")
         select_functional.setValue("#functional#");
+
+        select_duties.addOption({
+                text:'#functional#',
+                value: '#functional#'
+            });
+        select_duties.createItem("#functional#")
         select_duties.setValue("#functional#");
+
+        select_branch.addOption({
+                text:'#branch#',
+                value: '#branch#'
+            });
+        select_branch.createItem("#branch#")
         select_branch.setValue("#employer#");
+
+        select_workBA.addOption({
+                text:'#jobsearchfield#',
+                value: '#jobsearchfield#'
+            });
+        select_workBA.createItem("#jobsearchfield#")
         select_workBA.setValue("#jobsearchfield#");
+
+        select_work.addOption({
+                text:'#jobsearchfield#',
+                value: '#jobsearchfield#'
+            });
+        select_work.createItem("#jobsearchfield#")
         select_work.setValue("#jobsearchfield#");
+
+        select_preferredBA.addOption({
+                text:'#jobsearchindustry#',
+                value: '#jobsearchindustry#'
+            });
+        select_preferredBA.createItem("#jobsearchindustry#")
         select_preferredBA.setValue("#jobsearchindustry#");
+
+        select_preferred.addOption({
+                text:'#jobsearchindustry#',
+                value: '#jobsearchindustry#'
+            });
+        select_preferred.createItem("#jobsearchindustry#")
         select_preferred.setValue("#jobsearchindustry#");
     </script>
 </body>
